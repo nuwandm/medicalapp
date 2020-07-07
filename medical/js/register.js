@@ -7,8 +7,10 @@ function register() {
     processData: false,
     contentType: false // Using FormData, no need to process data.
     }).done(function(){
-    console.log("success");
+    window.location.replace("login.php?signup=success");
     }).fail(function(response){
     console.log(response);
+    
+    
     });
     }

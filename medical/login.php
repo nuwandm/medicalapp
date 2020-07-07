@@ -42,5 +42,6 @@ if (!isset($_SESSION['userData']['appUser']['id'])) {
     <span class="psw">Forgot <a href="#">password?</a></span>
   </div>
 </form>
+<script src='js/login.js' ></script>
 </body>
 </html>
